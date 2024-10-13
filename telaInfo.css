@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+body {
+
+    width: 100%;
+    margin: 0%;
+
+
+}
+
+#container {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+#cima {
+
+
+    width: 100%;
+    height: 15%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2cm;
+    background-color: #fdd26f;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+
+}
+
+#cima-esquerda {
+
+    background-color: #fdd26f;
+    width: 100%;
+    height: 25%;
+    z-index: 1;
+
+}
+
+#cima-esquerda img {
+    position: absolute;
+    top: 9.7%;
+    right: 0%;
+    width: 10%;
+    height: 150px;
+
+}
+
+#meio {
+
+    background-color:#fdd26f;
+    width: 100%;
+    height: 5%;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    text-align: center;
+}
+
+#divInfo {
+
+    width: 100%;
+    height: 50%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    justify-content: right;
+    text-align: start;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: flex-end;
+    
+}
+
+
+#labelInfo {
+    width: 92%;
+    height: 100%;
+}
+
+#buttonDiv{
+    height: 100%;
+    width: 8%;
+}
+
+#buttonDiv{
+    height: 100%;
+    width: 8%;
+}
+
+#buttonInfo {
+   
+    width: 70%;
+    height: 50%;
+    padding: 7px;
+    border-radius: 45px;
+    background-color: #F2A03D;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+#buttonInfo:hover{
+    background-color: #F9C756;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+}

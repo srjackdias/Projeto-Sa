@@ -1,0 +1,308 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px 
+    
+
+}
+
+html{
+    
+    height: 100%;
+    background-color: #F2A03D;
+   
+
+}
+
+body{
+
+    height: 100%;
+    background-color: aqua;
+}
+
+#container{
+
+    background-color: #F2A03D;
+    height: 100%;
+
+}
+
+#topo{
+    
+    width: 100%;
+    height: 5%;
+    background-color: #F2A03D;
+
+}
+
+#cima{
+
+    width: 100%;
+    height:10%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.iconeTitle{
+
+    height: 100%;
+    width: 10%;
+    
+}
+
+#meio{
+
+    width: 99.6%;
+    height: 75%;
+    background-color: #F2A03D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid  ;
+    border-radius: 0px;
+    border-color: #ffffff;
+    border-width: 4px;
+}
+
+#meioPressao{
+
+    width: 33.3%;
+    height: 100%;
+    background-color: #F2A03D;
+    flex-direction: column;
+
+}
+
+
+#meioPressaoResultado{
+
+    width: 100%;
+    height: 100;
+    background-color: #F2A03D;
+    flex-direction: column;
+    position: relative;
+    top: 4px;
+
+}   
+
+#meioBatimento{
+
+    width: 33.3%;
+    height: 100%;
+    background-color:#fdd26f;
+    flex-direction: column ;
+
+}
+
+#meioBatimentoResultado{
+
+    width: 100%;
+    height: 15%;
+    background-color:#fdd26f;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    left: 15px;
+    
+    
+
+}   
+
+#meioIndisposicao{
+
+    width:33.333%;
+    height: 100%;
+    background-color:  #F2A03D;
+    flex-direction: column ;
+    position: relative;
+   
+}
+
+#meioIndisposicaoResultado{
+
+    width: 50%;
+    height: 20%;
+    background-color: #F2A03D;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}   
+
+td{
+
+    text-align: center;
+
+}
+
+#baixo{
+
+    width: 100%;
+    height: 10%;
+    background-color: #F2A03D;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    gap: 10px
+
+}
+
+.inputs{
+
+    width: 10%;
+    height: 50%;
+    border-radius: 45px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+
+    
+}
+.inputs:hover{
+    background-color: #fdd26f;
+}
+
+.inptExpressao{
+
+    max-width: 80px;
+
+}
+
+#selecao{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+
+}
+
+.pressaoAlta td{
+
+    background-color: #E8382F;
+
+}
+
+
+.frequenciaAlterada td{
+
+    background-color: #E8382F;
+
+}
+
+.tabIndisposicao td{
+
+    background-color: #E8382F;
+}
+
+#cimatitle{
+
+    font-size: 30px
+    
+
+}
+
+#meioPtitle{
+
+    font-size:22px;
+    text-align: center;
+    
+}
+
+#meioBtitle{
+
+    font-size:22px;
+    text-align: center;
+
+}
+
+#meioItitle{
+
+    font-size:22px;
+    text-align: center;
+
+}
+
+#inptMaxSis,#inptMedSis,#inptMinSis,#inptMaxDia,#inptMedDia,#inptMinDia,#inptMaxBat,#inptMedBat,#inptMinBat{
+
+    border-radius: 2px;
+    
+}
+
+#inptMedSis{
+
+    width: 10%;
+    height: 20%;
+
+}
+
+#inptMinSis{
+
+    width: 10%;
+    height: 20%;
+
+}
+
+#inptMaxDia{
+
+    width: 10%;
+    height: 20%;
+
+}
+
+#inptMedDia{
+
+    width: 10%;
+    height: 20%;
+
+}
+
+#inptMinDia{
+
+    width: 10%;
+    height: 20%;
+
+}
+
+
+#inptMaxBat{
+
+    width: 10%;
+    height: 20%;
+    
+}
+    
+#inptMedBat{
+
+    width: 10%;
+    height: 20%;
+    
+}
+    
+#inptMinBat{
+
+    width: 10%;
+    height: 20%;
+    
+}
+#buttonHistorico,#buttonAlerta,#buttonSair,#buttonVolar{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

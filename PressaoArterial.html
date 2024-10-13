@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs</title>
+    <link rel="stylesheet" href="Pressao.css">
+
+</head>
+<body>
+
+    <div id="container">
+
+    
+        <div id="topo">
+            
+        </div>
+
+        <div id="cima">
+            
+            <h1 id="cimatitle">CONTROLE DE PRESSAO ARTERIAL - CPA</h1>
+            
+
+        </div>
+
+        <div id="meio">
+
+            <div id="meioPressao">
+
+                <h3 id="meioPtitle">PRESSAO ARTERIAL (mmHg)</h3>
+                
+                <table id="tabPressao">
+                    <tr>
+
+                        <th>SISTÓLICA mmHg.</th>
+                        <th>DIASTÓLICA mmHg.</th>
+                        <th>DATA</th>
+
+                    </tr>
+                    
+                    <tr>
+
+                        <td>
+                            <input class="inptExpressao" id="inptSis" placeholder="valor"> 
+                        </td>
+
+                        <td>
+                            <input class="inptExpressao" id="inptDia" placeholder="valor">
+                        </td>
+
+                        <td>
+                            <input type="date" id="inptData">
+                        </td>
+
+                        <td>
+                            <button onclick="cadastrarPressao()">Inserir</button>
+                        </td>
+
+                    </tr>
+                    
+                </table>
+
+                <div id="meioPressaoResultado">
+
+                    <label>Sistólica</label><br>
+
+                    <label id="lblMaxSis">MaxSis: </label>
+                    <input id="inptMaxSis">                 
+                  
+                    <label id="lblMedSis">MedSis: </label>
+                    <input id="inptMedSis">                
+                   
+                    <label id="lblMinSis">MinSis: </label>
+                    <input id="inptMinSis"><br><br>
+
+                    
+                    <label>Diastólica</label><br>
+
+                    <label id="lblMaxDia">MaxDia: </label>
+                    <input id="inptMaxDia">
+                    
+                    <label id="lblMedDia">MedDia: </label>
+                    <input id="inptMedDia">
+                    
+                    <label id="lblMinDia">MinDia: </label>
+                    <input id="inptMinDia">
+                    
+                </div>
+
+            </div>
+
+
+            <div id="meioBatimento">
+
+                <h3 id="meioBtitle">FREQUENCIA  CARDIACA (BPM)</h3>
+                
+                <table id="tabBatimentos">
+
+                    <tr>
+
+                        <th>FREQUENCIA (BPM) </th>
+                        <th>DATA</th>
+
+                    </tr>
+            
+                    <tr>
+
+                        <td>
+                            <input class="inptExpressao" id="inptBat" placeholder="valor"> 
+                        </td>
+
+                        <td>
+                            <input type="date" id="inptDataDois">
+                        </td>
+
+                        <td>
+                            <button onclick="cadastrarBatimentos()">Inserir</button>
+                        </td>   
+
+                    </tr>
+                    
+                </table>
+                
+                <div id="meioBatimentoResultado">
+                    
+                    <label id="lblMaxBat">MaxBat: </label>
+                    <input id="inptMaxBat">
+                  
+                    <label id="lblMedBat">MedBat: </label>
+                    <input id="inptMedBat"> 
+                   
+                    <label id="lblMinBat">MinBat: </label>
+                    <input id="inptMinBat">
+                     
+                </div>    
+
+            </div>
+
+            <div id="meioIndisposicao">
+
+                <h3 id="meioItitle">INDISPOSICÃO</h3>
+                
+                <table id="tabIndisposicao">
+
+                    <tr>
+
+                        <th>SINTOMAS</td>
+                        <th>DATA</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td id="selecao">
+
+                            <label>Escolha uma opção</label>
+   
+                            <select id="slct">
+
+                                <option value=""></option>
+                                <option value="Dor de Cabeça">Dor de Cabeça</option>
+                                <option value="Tontura">Tontura</option>
+                                <option value="Cansaço">Cansaço</option>
+                                <option value="Dormência">Dormência</option>
+
+                            </select>
+
+                        </td>
+
+                        <td>
+                            <input type="date" id="inptDataTres">
+                        </td>
+
+                        <td>
+                            <button onclick="cadastrarIndisposicao()">Inserir</button>
+                        </td>
+
+                    </tr>
+
+                </table>
+                  
+                <div id="meioIndisposicaoResultado">
+
+                    <label id="lblInd">Sintomas Mais Recorrente: </label>
+                    <input id="inptIndRec">
+
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div id="baixo">
+        
+            <button id="buttonSair" class="inputs" onclick="trocapaginatres()">SAIR</button>
+            <button id="buttonVoltar" class="inputs"onclick="trocarpaginadois()">VOLTAR</button>
+            <button id="buttonAlerta" class="inputs">MENSAGEM</button>
+            <button id="buttonHistorico" class="inputs">HISTORICO</button>
+            <button id="buttonHistorico" class="inputs">GRAFICOS</button>
+            <button id="buttonHistorico" class="inputs"onclick=" trocarpaginaUm()">DADOS PESSOAIS </button>
+        </div>
+
+       
+        
+
+    </div>  <!-- div container -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

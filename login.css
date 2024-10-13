@@ -1,0 +1,247 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+#container{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#left{
+
+    height: 100%;
+    width: 50%;
+    background-color:whitesmoke
+
+}
+
+
+#left-top{
+
+    height: 15%;
+    width: 100%;
+
+}
+
+#left-title{
+
+    height: 10%;
+    width: 100%;
+    font-size: 55px;
+
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#left-icons{
+    height: 15%;
+    width: 100%;
+}
+
+#quite{
+    height: 45%;
+    width: 100%;
+    display: flex;
+}
+#quite-left{
+    height: 100%;
+    width: 22%;
+}
+#card-login{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#quite-right{
+    height: 100%;
+    width: 22%;
+}
+
+
+#labelcima{
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    margin-bottom: 1%;
+
+}
+
+#inputNome{
+
+    width: 50%; 
+    background-color: #EBE8E7;
+    margin: 0.7rem 0;
+    padding: 0.8rem 1.4rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 7px #b5b4b0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#inputsenha{
+    width: 50%; 
+    background-color: #EBE8E7;
+    margin: 0.7rem 0;
+    padding: 0.8rem 1.4rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 7px #b5b4b0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#inputsenha:hover{
+    background-color: #f9f7f7;
+}
+
+#inputNome:hover{
+    background-color: #f9f7f7;
+}
+
+#labelbaixo{
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+
+}
+
+#button{
+
+    width: 60%;
+    height: 20%;
+    border-radius: 45px;
+    background-color: #F2A03D;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    margin-top: 2%;
+
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{   font-family: Arial, Helvetica, sans-serif;
+}
+
+#button:hover{
+
+    cursor: pointer;
+    background-color:#fdd26f;
+}
+
+#left-bottom{
+
+    height: 15%;
+    width: 100%;
+
+}
+
+#right{
+
+    height: 100%;
+    width: 60%;
+    background-color: #F2A03D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#buttonSigIn{
+
+    width: 35%;
+    height: 9%;
+    border-radius: 45px;
+    border-color: white;
+    font-size: 25px;
+    color: white;
+    background-color: #F2A03D;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 3px white;
+
+}
+
+#buttonSigIn:hover{
+
+    background-color:white;
+    color: #F2A03D;
+    cursor: pointer;
+
+}
+
+#textOne{
+
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+#textTwo{
+
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    flex-direction: column;
+
+}
+
+#back{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+#container-left, #container-right{
+
+    background-color: #fdd26f;
+}
+
+#container-top, #container-bottom{
+
+    background-color: #fdd26f;
+    
+}
+#container-quite{
+    width: 100%;
+    height: 100%;
+     
+}
